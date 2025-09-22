@@ -31,7 +31,7 @@
 ### 🟡 中等风险 (Medium)
 
 - **权限集中风险**（已通过4/7多签部分缓解）
-  - 地址: `0xa8c0C6Ee62F5AD95730fe23cCF37d1c1FFAA1c3f` (Gnosis Safe)
+  - 地址: [`0xa8c0C6Ee62F5AD95730fe23cCF37d1c1FFAA1c3f`](https://bscscan.com/address/0xa8c0C6Ee62F5AD95730fe23cCF37d1c1FFAA1c3f) (Gnosis Safe)
   - 仍需要角色分离和透明度提升
 - USDF 转换滑点保护不足
 - OPERATE_ROLE 权限过大
@@ -54,19 +54,19 @@ AsterDex 是一个跨链 DeFi 协议，包含以下核心组件：
 
 | 产品 | 描述 | 合约地址 (BSC) |
 |------|------|----------------|
-| **asBTC** | 包装的 BTC 代币，支持 LayerZero OFT | `0x184b72289c0992BDf96751354680985a7C4825d6` |
-| **asUSDF** | 稳定币收益代币 | `0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb` |
-| **asBNB** | BNB 流动性质押衍生品 | `0x77734e70b6E88b4d82fE632a168EDf6e700912b6` |
-| **asCAKE** | PancakeSwap CAKE 包装代币 | `0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7` |
+| **asBTC** | 包装的 BTC 代币，支持 LayerZero OFT | [`0x184b72289c0992BDf96751354680985a7C4825d6`](https://bscscan.com/address/0x184b72289c0992BDf96751354680985a7C4825d6) |
+| **asUSDF** | 稳定币收益代币 | [`0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb`](https://bscscan.com/address/0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb) |
+| **asBNB** | BNB 流动性质押衍生品 | [`0x77734e70b6E88b4d82fE632a168EDf6e700912b6`](https://bscscan.com/address/0x77734e70b6E88b4d82fE632a168EDf6e700912b6) |
+| **asCAKE** | PancakeSwap CAKE 包装代币 | [`0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7`](https://bscscan.com/address/0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7) |
 
 ### 3. 跨链部署
 
 | 网络 | Treasury 合约地址 |
 |------|------------------|
-| BSC | `0x128463A60784c4D3f46c23Af3f65Ed859Ba87974` |
-| Ethereum | `0x604DD02d620633Ae427888d41bfd15e38483736E` |
-| Arbitrum | `0x9E36CB86a159d479cEd94Fa05036f235Ac40E1d5` |
-| Scroll | `0x7BE980E327692Cf11E793A0d141D534779AF8Ef4` |
+| BSC | [`0x128463A60784c4D3f46c23Af3f65Ed859Ba87974`](https://bscscan.com/address/0x128463A60784c4D3f46c23Af3f65Ed859Ba87974) |
+| Ethereum | [`0x604DD02d620633Ae427888d41bfd15e38483736E`](https://etherscan.io/address/0x604DD02d620633Ae427888d41bfd15e38483736E) |
+| Arbitrum | [`0x9E36CB86a159d479cEd94Fa05036f235Ac40E1d5`](https://arbiscan.io/address/0x9E36CB86a159d479cEd94Fa05036f235Ac40E1d5) |
+| Scroll | [`0x7BE980E327692Cf11E793A0d141D534779AF8Ef4`](https://scrollscan.com/address/0x7BE980E327692Cf11E793A0d141D534779AF8Ef4) |
 
 ## 🔍 技术分析
 

@@ -22,13 +22,13 @@
 
 | 合约名称 | 地址 | 链 | 文件位置 |
 |---------|------|-----|---------|
-| AstherusVault | 0x128463A60784c4D3f46c23Af3f65Ed859Ba87974 | BSC | [contracts/verified/AstherusVault.sol](./contracts/verified/AstherusVault.sol) |
-| AsBnbMinter | 0x2F31ab8950c50080E77999fa456372f276952fD8 | BSC | [contracts/verified/AsBnbMinter.sol](./contracts/verified/AsBnbMinter.sol) |
-| AsBNB Token | 0x77734e70b6E88b4d82fE632a168EDf6e700912b6 | BSC | [contracts/verified/AsBNB.sol](./contracts/verified/AsBNB.sol) |
-| asBTC Token | 0x184b72289c0992BDf96751354680985a7C4825d6 | BSC | [contracts/verified/asBTC.sol](./contracts/verified/asBTC.sol) |
-| asUSDF Token | 0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb | BSC | [contracts/verified/asUSDF.sol](./contracts/verified/asUSDF.sol) |
-| asCAKE Token | 0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7 | BSC | 未包含源代码 |
-| AstherusTimelock | 0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5 | BSC | [contracts/verified/AstherusTimelock.sol](./contracts/verified/AstherusTimelock.sol) |
+| AstherusVault | [`0x128463A60784c4D3f46c23Af3f65Ed859Ba87974`](https://bscscan.com/address/0x128463A60784c4D3f46c23Af3f65Ed859Ba87974) | BSC | [contracts/verified/AstherusVault.sol](./contracts/verified/AstherusVault.sol) |
+| AsBnbMinter | [`0x2F31ab8950c50080E77999fa456372f276952fD8`](https://bscscan.com/address/0x2F31ab8950c50080E77999fa456372f276952fD8) | BSC | [contracts/verified/AsBnbMinter.sol](./contracts/verified/AsBnbMinter.sol) |
+| AsBNB Token | [`0x77734e70b6E88b4d82fE632a168EDf6e700912b6`](https://bscscan.com/address/0x77734e70b6E88b4d82fE632a168EDf6e700912b6) | BSC | [contracts/verified/AsBNB.sol](./contracts/verified/AsBNB.sol) |
+| asBTC Token | [`0x184b72289c0992BDf96751354680985a7C4825d6`](https://bscscan.com/address/0x184b72289c0992BDf96751354680985a7C4825d6) | BSC | [contracts/verified/asBTC.sol](./contracts/verified/asBTC.sol) |
+| asUSDF Token | [`0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb`](https://bscscan.com/address/0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb) | BSC | [contracts/verified/asUSDF.sol](./contracts/verified/asUSDF.sol) |
+| asCAKE Token | [`0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7`](https://bscscan.com/address/0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7) | BSC | 未包含源代码 |
+| AstherusTimelock | [`0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5`](https://bscscan.com/address/0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5) | BSC | [contracts/verified/AstherusTimelock.sol](./contracts/verified/AstherusTimelock.sol) |
 
 ---
 
@@ -224,7 +224,7 @@ function verifyValidatorSignature(...) private {
 
 虽然使用了多签钱包，但单一多签地址仍控制所有关键权限：
 
-- **地址**: `0xa8c0C6Ee62F5AD95730fe23cCF37d1c1FFAA1c3f` (Gnosis Safe 多签)
+- **地址**: [`0xa8c0C6Ee62F5AD95730fe23cCF37d1c1FFAA1c3f`](https://bscscan.com/address/0xa8c0C6Ee62F5AD95730fe23cCF37d1c1FFAA1c3f) (Gnosis Safe 多签)
 - **多签配置**: 4/7 签名阈值
 - **签名者**: 7个地址
 - **控制的角色**:

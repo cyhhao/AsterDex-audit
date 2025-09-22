@@ -8,17 +8,17 @@
 
 | 合约名称 | 文件 | BSC 地址 | 描述 |
 |---------|------|---------|------|
-| **AstherusVault** | [AstherusVault.sol](./verified/AstherusVault.sol) | `0x128463A60784c4D3f46c23Af3f65Ed859Ba87974` | 资金管理合约（Treasury），处理存取款和跨链转移 |
-| **AstherusTimelock** | [AstherusTimelock.sol](./verified/AstherusTimelock.sol) | `0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5` | 时间锁定合约，用于治理和升级 |
+| **AstherusVault** | [AstherusVault.sol](./verified/AstherusVault.sol) | [`0x128463A60784c4D3f46c23Af3f65Ed859Ba87974`](https://bscscan.com/address/0x128463A60784c4D3f46c23Af3f65Ed859Ba87974#code) | 资金管理合约（Treasury），处理存取款和跨链转移 |
+| **AstherusTimelock** | [AstherusTimelock.sol](./verified/AstherusTimelock.sol) | [`0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5`](https://bscscan.com/address/0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5#code) | 时间锁定合约，用于治理和升级 |
 
 ### AsterEarn 产品合约
 
 | 合约名称 | 文件 | BSC 地址 | 描述 |
 |---------|------|---------|------|
-| **AsBnbMinter** | [AsBnbMinter.sol](./verified/AsBnbMinter.sol) | `0x2F31ab8950c50080E77999fa456372f276952fD8` | asBNB 铸造合约，管理 BNB 质押 |
-| **AsBNB** | [AsBNB.sol](./verified/AsBNB.sol) | `0x77734e70b6E88b4d82fE632a168EDf6e700912b6` | BNB 流动性质押衍生代币 |
-| **asBTC** | [asBTC.sol](./verified/asBTC.sol) | `0x184b72289c0992BDf96751354680985a7C4825d6` | 包装的 BTC 代币，支持 LayerZero OFT |
-| **asUSDF** | [asUSDF.sol](./verified/asUSDF.sol) | `0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb` | 稳定币收益代币 |
+| **AsBnbMinter** | [AsBnbMinter.sol](./verified/AsBnbMinter.sol) | [`0x2F31ab8950c50080E77999fa456372f276952fD8`](https://bscscan.com/address/0x2F31ab8950c50080E77999fa456372f276952fD8#code) | asBNB 铸造合约，管理 BNB 质押 |
+| **AsBNB** | [AsBNB.sol](./verified/AsBNB.sol) | [`0x77734e70b6E88b4d82fE632a168EDf6e700912b6`](https://bscscan.com/token/0x77734e70b6E88b4d82fE632a168EDf6e700912b6#code) | BNB 流动性质押衍生代币 |
+| **asBTC** | [asBTC.sol](./verified/asBTC.sol) | [`0x184b72289c0992BDf96751354680985a7C4825d6`](https://bscscan.com/token/0x184b72289c0992BDf96751354680985a7C4825d6#code) | 包装的 BTC 代币，支持 LayerZero OFT |
+| **asUSDF** | [asUSDF.sol](./verified/asUSDF.sol) | [`0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb`](https://bscscan.com/token/0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb#code) | 稳定币收益代币 |
 
 ## 审计发现的关键问题位置
 
