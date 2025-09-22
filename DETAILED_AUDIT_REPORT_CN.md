@@ -22,13 +22,13 @@
 
 | 合约名称 | 地址 | 链 | 文件位置 |
 |---------|------|-----|---------|
-| AstherusVault | 0x128463A60784c4D3f46c23Af3f65Ed859Ba87974 | BSC | contracts/AstherusVault.sol |
-| AsBnbMinter | 0x2F31ab8950c50080E77999fa456372f276952fD8 | BSC | src/AsBnbMinter.sol |
-| AsBNB Token | 0x77734e70b6E88b4d82fE632a168EDf6e700912b6 | BSC | src/AsBNB.sol |
-| asBTC Token | 0x184b72289c0992BDf96751354680985a7C4825d6 | BSC | contracts/oft/asBTC.sol |
-| asUSDF Token | 0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb | BSC | contracts/oft/asUSDF.sol |
-| asCAKE Token | 0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7 | BSC | src/AssToken.sol |
-| AstherusTimelock | 0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5 | BSC | contracts/AstherusTimelock.sol |
+| AstherusVault | 0x128463A60784c4D3f46c23Af3f65Ed859Ba87974 | BSC | [contracts/verified/AstherusVault.sol](./contracts/verified/AstherusVault.sol) |
+| AsBnbMinter | 0x2F31ab8950c50080E77999fa456372f276952fD8 | BSC | [contracts/verified/AsBnbMinter.sol](./contracts/verified/AsBnbMinter.sol) |
+| AsBNB Token | 0x77734e70b6E88b4d82fE632a168EDf6e700912b6 | BSC | [contracts/verified/AsBNB.sol](./contracts/verified/AsBNB.sol) |
+| asBTC Token | 0x184b72289c0992BDf96751354680985a7C4825d6 | BSC | [contracts/verified/asBTC.sol](./contracts/verified/asBTC.sol) |
+| asUSDF Token | 0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb | BSC | [contracts/verified/asUSDF.sol](./contracts/verified/asUSDF.sol) |
+| asCAKE Token | 0x9817F4c9f968a553fF6caEf1a2ef6cF1386F16F7 | BSC | 未包含源代码 |
+| AstherusTimelock | 0xdD95D454ea23dE750aa46D093C7B04E3F5b8b6B5 | BSC | [contracts/verified/AstherusTimelock.sol](./contracts/verified/AstherusTimelock.sol) |
 
 ---
 
@@ -42,9 +42,10 @@
 **状态**: ✅ 已确认，需立即修复
 
 #### 漏洞位置
-- **文件**: `contracts/AstherusVault.sol`
+- **文件**: [`contracts/verified/AstherusVault.sol`](./contracts/verified/AstherusVault.sol#L472-L481)
 - **函数**: `_amountUsd`
 - **行号**: L472-L481
+- **查看源代码**: [点击查看](./contracts/verified/AstherusVault.sol#L472)
 
 #### 存在问题的代码
 ```solidity
@@ -137,9 +138,10 @@ function _amountUsd(address currency, uint256 amount) private view returns (uint
 **可能性**: 中等
 
 #### 漏洞位置
-- **文件**: `contracts/AstherusVault.sol`
+- **文件**: [`contracts/verified/AstherusVault.sol`](./contracts/verified/AstherusVault.sol#L487-L509)
 - **函数**: `verifyValidatorSignature`
 - **行号**: L487-L509
+- **查看源代码**: [点击查看](./contracts/verified/AstherusVault.sol#L487)
 
 #### 存在问题的代码
 ```solidity
@@ -276,9 +278,10 @@ cast call 0xa8c0C6Ee62F5AD95730fe23cCF37d1c1FFAA1c3f \
 **可能性**: 中等
 
 #### 漏洞位置
-- **文件**: `contracts/AstherusTimelock.sol`
+- **文件**: [`contracts/verified/AstherusTimelock.sol`](./contracts/verified/AstherusTimelock.sol#L32-L39)
 - **函数**: `getTimestamp`
 - **行号**: L32-L39
+- **查看源代码**: [点击查看](./contracts/verified/AstherusTimelock.sol#L32)
 
 #### 存在问题的代码
 ```solidity
@@ -316,7 +319,7 @@ function getTimestamp(bytes32 id) public view override returns (uint256) {
 **可能性**: 中等
 
 #### 漏洞位置
-- **文件**: `contracts/AstherusVault.sol`
+- **文件**: [`contracts/verified/AstherusVault.sol`](./contracts/verified/AstherusVault.sol#L311-L329)
 - **函数**: `depositUSDF`
 - **行号**: L311-L329
 
@@ -371,7 +374,7 @@ function depositUSDF(...) external {
 **可能性**: 低
 
 #### 漏洞位置
-- **文件**: `contracts/AstherusVault.sol`
+- **文件**: [`contracts/verified/AstherusVault.sol`](./contracts/verified/AstherusVault.sol#L371-L420)
 - **函数**: `batchedDepositWithPermit`
 - **行号**: L371-L420
 
@@ -395,7 +398,7 @@ OPERATE_ROLE 可以：
 **可能性**: 中等
 
 #### 漏洞位置
-- **文件**: `src/AsBnbMinter.sol`
+- **文件**: [`contracts/verified/AsBnbMinter.sol`](./contracts/verified/AsBnbMinter.sol#L226-L266)
 - **函数**: `processMintRequests`
 - **行号**: L226-L266
 
@@ -460,7 +463,7 @@ function emergencyWithdraw(address token) external {
 **可能性**: 中等
 
 #### 漏洞位置
-- **文件**: `src/AsBnbMinter.sol`
+- **文件**: [`contracts/verified/AsBnbMinter.sol`](./contracts/verified/AsBnbMinter.sol#L307-L315)
 - **函数**: `exchangeRate`
 - **行号**: L307-L315
 
@@ -500,7 +503,7 @@ function exchangeRate() public view returns (uint256) {
 **可能性**: 低-中等
 
 #### 漏洞位置
-- **文件**: `src/AsBnbMinter.sol`
+- **文件**: [`contracts/verified/AsBnbMinter.sol`](./contracts/verified/AsBnbMinter.sol)
 - **依赖**: Lista StakeManager
 - **行号**: 多处调用
 
